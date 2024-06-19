@@ -18,3 +18,10 @@ bibTex:
   year={2020}
 }
 ```
+## Migration to Qiskit 1.x.x
+
+`Aer` is not available after `qiskit 1.0.0`. To use `Aer`, first install the namespace `qiskit-aer`
+
+```
+%pip install qiskit-aer
+```
