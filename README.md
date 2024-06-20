@@ -25,3 +25,5 @@ bibTex:
 ```
 %pip install qiskit-aer
 ```
+
+`execute` cannot be used after `qiskit 1.0.0`
