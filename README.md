@@ -50,3 +50,5 @@ from qiskit import transpile
 new_circuit = transpile(circuit, backend_sim)
 job = backend_sim.run(new_circuit, shots = shots)
 ```
+### `table1.ipynb`
+All code works perfectly in `qiskit 1.1.1`, no need to do any change. 
