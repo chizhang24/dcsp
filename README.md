@@ -52,3 +52,11 @@ job = backend_sim.run(new_circuit, shots = shots)
 ```
 ### `table1.ipynb`
 All code works perfectly in `qiskit 1.1.1`, no need to do any change. 
+
+
+### The `/QClassifier` folder 
+
+The `/QClassifier` folder is very messed up. The `quantum_classifier.py` is the python script to get the results in Table 2 in the paper. 
+
+There is a subfolder `/QClassifier/cin`, enclosing `/QClassifier/cin/dataset` and `/QClassifier/cin/pennylane`. `/QClassifier/cin/pennylane` is not the quantum computing library `pennylane`, nor are the python scripts under `/QClassifier/cin/pennylane` are part of the source code of `pennylane`. All the python scripts under the folder `/QClassifier/cin/` are user-defined. And this is the most confusing part of the source code. Keep in mind that all methods, functions and classes imported from `cin.*` are not part of the official python libraries `pennylane` and `scikit-learn`. The authors should have followed a clearer naming convention.
+
