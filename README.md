@@ -69,4 +69,4 @@ print(qml.draw(node))
 doesn't work. But this problem is not essential and is deviating from our main task. 
 
 ## TODO
-- [] make `/QClassifier/quantum_classifier.py` draw the circuits correctly (not important)
+- [ ] make `/QClassifier/quantum_classifier.py` draw the circuits correctly (not important)
