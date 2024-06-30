@@ -60,3 +60,13 @@ The `/QClassifier` folder is very messed up. The `quantum_classifier.py` is the 
 
 There is a subfolder `/QClassifier/cin`, enclosing `/QClassifier/cin/dataset` and `/QClassifier/cin/pennylane`. `/QClassifier/cin/pennylane` is not the quantum computing library `pennylane`, nor are the python scripts under `/QClassifier/cin/pennylane` are part of the source code of `pennylane`. All the python scripts under the folder `/QClassifier/cin/` are user-defined. And this is the most confusing part of the source code. Keep in mind that all methods, functions and classes imported from `cin.*` are not part of the official python libraries `pennylane` and `scikit-learn`. The authors should have followed a clearer naming convention.
 
+
+
+The `quantum_classifier.py` script works well. The only flaw is that it cannot draw the opitimized circuit in the end, that is, in line 73
+```python
+print(qml.draw(node))
+```
+doesn't work. But this problem is not essential and is deviating from our main task. 
+
+## TODO
+- [] make `/QClassifier/quantum_classifier.py` draw the circuits correctly (not important)
