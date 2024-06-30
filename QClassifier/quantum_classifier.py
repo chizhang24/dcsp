@@ -68,7 +68,7 @@ def main():
 
     # print the quantum circuit (for some reason, it does not print the amplitude encoding).
     print('\n')
-    print(node.draw(show_variable_names=True))
+    print(qml.draw(node))
 
 if __name__ == "__main__":
     main()
