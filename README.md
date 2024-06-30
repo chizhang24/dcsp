@@ -68,5 +68,15 @@ print(qml.draw(node))
 ```
 doesn't work. But this problem is not essential and is deviating from our main task. 
 
+To make the code work, run 
+```bash
+%pip install pennylane
+```
+and 
+```bash
+%pip install scikit-learn
+```
+before
+
 ## TODO
 - [ ] make `/QClassifier/quantum_classifier.py` draw the circuits correctly (not important)
